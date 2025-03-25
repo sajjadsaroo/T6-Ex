@@ -14,7 +14,6 @@ class Library {
         books.add(book);
     }
 
-
     private Book findBook(String title) {
         for (Book book : books) {
             if (book.getTitle().equals(title)) {
